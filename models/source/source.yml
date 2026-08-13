@@ -1,0 +1,9 @@
+version: 2.0
+
+sources:
+    - name: source
+      database: DATAENGINEERING
+      schema: source
+      tables:
+        - name: bookings
+        - name: listings
