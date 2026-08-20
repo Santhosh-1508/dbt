@@ -1,1 +1,1 @@
-select * from source.bookings
+select * from {{source('source','bookings')}}
