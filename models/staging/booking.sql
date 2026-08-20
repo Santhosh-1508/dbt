@@ -1,1 +1,1 @@
-select * from dataengineering.source.bookings
+select * from {{source('source','bookings')}}
